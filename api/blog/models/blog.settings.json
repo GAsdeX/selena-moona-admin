@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "entryName": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "blogs"
+}
